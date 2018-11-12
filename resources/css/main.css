@@ -5,6 +5,7 @@
     /* fonts */
 
     --font-default: arial, sans-serif;
+    --font-heading: georgia, serif;
 
     /* Colors */
     --color-purple: #4952a3;
@@ -75,8 +76,7 @@ video {
     padding-right: var(--padder);
     max-width: var(--area-wide);
 
-    background-color: yellow;
-
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,9 +86,25 @@ video {
 
 header {
     background-color: var(--alternative-bg-color);
+    padding-top: var(--padder);
 }
 
+header .layout-wide{
+    margin-bottom: 0;
+    overflow: hidden;
 
+}
+.logo-wrapper {
+    width: 20%;
+    float: left;
+}
+
+.site-title {
+    text-align: right;
+    color: var(--alternative-text-color);
+    font-size: var(--font-size-site-title);
+    font-family: var(--font-heading);
+}
 /* ------------------------ NAVIGATION */
 
 /* ------------------------ FOOTER */

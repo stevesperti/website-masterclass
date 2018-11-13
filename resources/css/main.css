@@ -144,7 +144,12 @@ header .layout-wide {
 
 .navigation{
     background-color: var(--alternative-bg-color);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding-top: var(--padder);
 }
+
 .nav-prompt {
     width: 100%;
     padding-top: var(--padder);

@@ -43,6 +43,20 @@
   --font-size-heading-small: 16px;
 }
 
+@media screen and (min-width: 800px) {
+
+    :root {
+        --font-size-site-title: 54px;
+        --font-size-page-title: 80px;
+        --font-size-section-title: 48px;
+    
+        --padder: 2%;
+
+    }
+
+}
+
+
 /* ------------------------ GLOBAL DEFAULTS */
 
 * {
@@ -74,23 +88,23 @@ h5 {
   color: var(--strong-text-color);
 }
 h1 {
-  font-size: var(--font-size-page-title);}
+  font-size: var(--font-size-page-title);
+}
 
-  h2 {
-    font-size: var(--font-size-section-title);}
+h2 {
+  font-size: var(--font-size-section-title);
+}
 
-
-    h3 {
-      font-size: var(--font-size-sub-title);
-    }
-  a {
-      color: var(--error-color);
-      transition: var(--transition-time);
-  }
-  a:hover{
-color: var(--strong-text-color);
-  }
-
+h3 {
+  font-size: var(--font-size-sub-title);
+}
+a {
+  color: var(--error-color);
+  transition: var(--transition-time);
+}
+a:hover {
+  color: var(--strong-text-color);
+}
 
 /* ------------------------ LAYOUTS */
 

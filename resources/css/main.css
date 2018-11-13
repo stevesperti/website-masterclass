@@ -86,6 +86,7 @@ h4,
 h5 {
   font-family: var(--font-heading);
   color: var(--strong-text-color);
+  font-weight: bold;
 }
 h1 {
   font-size: var(--font-size-page-title);
@@ -193,6 +194,11 @@ header .layout-wide {
     color: var(--error-color);
     border-bottom-color: currentColor;
 
+}
+
+.nav-inner .active{
+    font-weight: bold;
+    border-bottom-color: currentColor;
 }
 
 @media screen and (min-width: 800px){
@@ -324,3 +330,29 @@ input[type="submit"]:hover {
   color: var(--alternative-text-color);
 }
 /* ------------------------ MODULES */
+
+@media screen and (min-width: 800px){
+    .hero-module {
+        position: relative;
+    }
+
+    .hero-module img {
+        width: 100%;
+
+    }
+
+    .hero-content {
+        position: absolute;
+        bottom: 0;
+
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+    }
+    .heading-main {
+        color: white;
+    }
+}
